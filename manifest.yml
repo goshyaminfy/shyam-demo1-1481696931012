@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: shyam-demo1
+  host: shyam-demo1
+  disk_quota: 1024M
+  services:
+  - shyam-demo1-cloudantNoSQLDB
